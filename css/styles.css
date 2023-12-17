@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Montserrat;
+    background: linear-gradient(90deg, #69b7eb, #b3dbd3, #f4d6db);
+}
+
+button{
+    /* padding: 12px; */
+    cursor: pointer;
+    font-family: Montserrat;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    height: auto;
+    background-color: #1e2129;
+    padding: 50px 0;
+    margin-top: 70px;
+    box-shadow: -20px -20px 0px 0px rgba(25, 24, 24, 0.1);
+}
+
+.list__title {
+    margin: 0 auto;
+    width: 500px;
+    height: 80px;
+    color: beige;
+}
+
+.list__title h1 {
+    margin-bottom: 5px;
+}
+
+.tasks__row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.task__list {
+    position: relative;
+    width: 600px;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F3441;
+}  
+
+.task__list p{
+    font-weight: bold;
+    color: beige;
+}
+
+.btn__icons{
+    display: flex;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+#delete__btn, #edit__btn{
+    color: beige;
+    background-color: transparent;
+    border: none;
+    padding: 0 3px;
+    font-size: 26px;
+}
+
+.task__footer{
+    margin: 0 auto;
+    width: 500px;
+    margin-top: 60px;
+}
+
+.task__footer p{
+    color: beige;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#task__input, #edit__changes{
+    width: 350px;
+    padding: 16px 16px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Montserrat;
+}
+
+#add__btn, #save__changes{
+    padding: 16px 24px;
+    font-size: 16px;
+    color: beige;
+    font-weight: bold;
+    background-color: transparent;
+    border: 3px solid #2F3441;
+}
+
+#add__btn:hover{
+    background-color: #15181f;
+}
+
+.edit__card{
+    margin: 0 auto;
+    position: absolute;
+}
+
+.none{
+    display: none;
+}
+
